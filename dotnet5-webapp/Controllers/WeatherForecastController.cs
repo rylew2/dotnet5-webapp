@@ -13,7 +13,7 @@ namespace dotnet5_webapp.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Freezing", "Bracing", "Chillyy", "Cool", "Milddd", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
@@ -21,7 +21,9 @@ namespace dotnet5_webapp.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
+       
         }
+
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
